@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Projeto Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="nome">Nome</string>
+    <string name="senha">Senha</string>
+    <string name="salvar">Salvar</string>
+    <string name="cpf">CPF</string>
+    <string name="titulo">Titulo</string>
+    <string name="descricao">Descrição</string>
+    <string name="preco">Preço</string>
+    <string name="detalhe_anuncio">Detalhe de anúncio</string>
+    <string name="data_para_o_servi_o_dd_mm_aaaa">Data para o serviço dd/mm/aaaa</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="logradouro">Logradouro</string>
+    <string name="complemento">Complemento</string>
+    <string name="cidade">Cidade</string>
+    <string name="numero">Número</string>
+    <string name="estado">Estado</string>
+    <string name="cep">CEP</string>
+    <string name="contratar_servi_o">Contratar Serviço</string>
+</resources>
