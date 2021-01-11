@@ -41,7 +41,7 @@ public class UsuarioService implements UserDetailsService {
 	}
 
 	public UsuarioDTO findById(Long id) {
-		authService.validateSelfOrAdmin(id);
+		//authService.validateSelfOrAdmin(id);
 		Optional<Usuario> obj = repository.findById(id);
 		Usuario entity = obj.orElseThrow(() -> new ResourceNotFoundException(id));
 		return new UsuarioDTO(entity);

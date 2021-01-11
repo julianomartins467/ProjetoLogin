@@ -28,6 +28,9 @@ public interface InterfaceDeServicos {
     @GET("/usuarios")
     Call<List<DtoUser>> todosUsuarios(@Header("Authorization") String authorization);
 
+    @GET("/usuarios/{id}")
+    Call<DtoUser> buscaUsuario(@Path("id") int id, @Header("Authorization") String authorization);
+
     @PUT("/usuarios/{id}")
     Call<DtoUser> alteraUsuario(@Body DtoUser user, @Path("id") int id, @Header("Authorization") String authorization);
 

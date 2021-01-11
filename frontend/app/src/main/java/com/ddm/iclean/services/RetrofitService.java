@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitService {
 
     private static Context context;
-        private String baseUrl = "http://172.17.198.129:8080";
+        private String baseUrl = "http://10.0.0.131:8080";
     private InterfaceDeServicos api;
     private static RetrofitService instancia;
 
